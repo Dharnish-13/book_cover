@@ -31,7 +31,7 @@ Step 8:
 Publish the website in the LocalHost.
 
 PROGRAM:
-
+```
 views.py
 
 from django.shortcuts import render
@@ -50,7 +50,7 @@ urlpatterns = [
 ]
 
 html code:
-```
+
 {% load static %}
 <html><!DOCTYPE html>
 <html lang="en">
