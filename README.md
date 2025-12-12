@@ -1,4 +1,3 @@
-<img width="1914" height="968" alt="Screenshot 2025-12-12 163219" src="https://github.com/user-attachments/assets/957f50f2-2f95-43ab-9f24-982659717d0f" /># Ex.06 Book Front Cover Page Design
 # Date:12/12/2025
 # AIM:
 To design a book front cover page using HTML and CSS.
@@ -31,12 +30,13 @@ Publish the website in the LocalHost.
 # PROGRAM:
 
 views.py
-from django.shortcuts import render
 
+from django.shortcuts import render
 def book_cover(request):
     return render(request, 'book_cover.html')
 
 urls.py
+
 from django import views
 from django.contrib import admin
 from django.urls import path
