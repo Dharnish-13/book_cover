@@ -67,7 +67,7 @@ html code:
             justify-content: center;
             align-items: center;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            height: 100vh;
+            height: 100px;
             display: flex;
             
         }
